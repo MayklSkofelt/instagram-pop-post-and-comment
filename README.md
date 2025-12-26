@@ -9,7 +9,9 @@ This Apify Actor collects:
 ## Input example
 ```json
 {
-  "users": ["georginagio", "instagram"],
+  "users": ["instagram"],
   "postLimit": 3,
-  "commentLimit": 300
+  "commentLimit": 20,
+  "topPostsCount": 1,
+  "followersCount": 1000000
 }
