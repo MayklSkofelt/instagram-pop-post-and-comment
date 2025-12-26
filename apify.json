@@ -1,0 +1,9 @@
+{
+  "name": "instagram-post-comment-monitor",
+  "version": "1.0.0",
+  "buildTag": "latest",
+  "defaultRunOptions": {
+    "timeoutSecs": 3600,
+    "memoryMbytes": 1024
+  }
+}
