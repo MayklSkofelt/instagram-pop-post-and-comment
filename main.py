@@ -1,7 +1,6 @@
 import os
 import asyncio
 from apify_client import ApifyClient
-from crawlee import CheerioCrawler
 
 # --- Apify client --- #
 APIFY_TOKEN = os.environ.get("APIFY_TOKEN")
