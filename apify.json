@@ -1,9 +1,9 @@
 {
-  "name": "instagram-analytics-actor",
-  "version": "1.1.0",
+  "name": "instagram-pop-post-and-comment",
+  "version": "1.0",
   "buildTag": "latest",
+  "env": {},
   "defaultRunOptions": {
-    "timeoutSecs": 3600,
-    "memoryMbytes": 1024
+    "build": "latest"
   }
 }

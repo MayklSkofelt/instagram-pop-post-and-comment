@@ -1,13 +1,7 @@
-FROM python:3.12-slim
+FROM apify/actor-python:3.12
 
-# Working directory
-WORKDIR /usr/src/app
+COPY . ./
 
-# Kopiýala ähli faýllary
-COPY . .
-
-# Talaplary gur
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Actor işledýän faýl
 CMD ["python", "main.py"]
